@@ -4,8 +4,8 @@ import Image from 'next/image'
 import Skeleton from '../../components/Skeleton'
 
 const client = createClient({
-  space: process.env.CONTENTFUL_SPACE_ID,
-  accessToken: process.env.CONTENTFUL_ACCESS_KEY,
+  space: '5eeu397wl0ci',
+  accessToken: 'BphFOEMhkyx1iI02UFobIxNg190vvLXepqwG05FacJQ',
 })
 
 export const getStaticPaths = async () => {
