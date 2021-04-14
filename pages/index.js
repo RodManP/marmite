@@ -4,8 +4,8 @@ import RecipeCard from '../components/RecipeCard'
 export async function getStaticProps() {
 
   const client = createClient({
-    space: process.env.CONTENTFUL_SPACE_ID,
-    accessToken: process.env.CONTENTFUL_ACCESS_KEY,
+    space: '5eeu397wl0ci',
+    accessToken: 'BphFOEMhkyx1iI02UFobIxNg190vvLXepqwG05FacJQ',
   })
 
   const res = await client.getEntries({ content_type: "recipe" })
